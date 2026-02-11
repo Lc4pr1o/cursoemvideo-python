@@ -5,7 +5,7 @@ print('Vamos calcular o aumento salarial!')
 
 funcionario = input('Digite o nome do funcionário: ')
 salario_atual = float(input('Digite o valor do salario atual: '))
-aumento = int(input('Digite a porcentagem do aumento: '))
+aumento = float(input('Digite a porcentagem do aumento: '))
 
 aumento_corrigido = salario_atual * (aumento / 100) # --- conta para achar o valor a ser aumentado
 novo_salario = salario_atual + aumento_corrigido
